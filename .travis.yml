@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode7.2
 xcode_project: PaginatedListViewModel.xcodeproj 
-xcode_scheme: PaginatedListViewModelTests 
+xcode_scheme: PaginatedListViewModel 
