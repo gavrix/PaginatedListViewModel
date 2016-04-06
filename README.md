@@ -1,6 +1,6 @@
 # PaginatedListViewModel
 
-[![Build Status](https://travis-ci.org/gavrix/PaginatedListViewModel.svg?branch=master)](https://travis-ci.org/gavrix/PaginatedListViewModel)
+[![Build Status](https://travis-ci.org/gavrix/PaginatedListViewModel.svg?branch=master)](https://travis-ci.org/gavrix/PaginatedListViewModel) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 [`RAC`](https://github.com/ReactiveCocoa/ReactiveCocoa)-based lightweight generic ViewModel to handle paginated lists of items (with pages retrieved asynchronously, typically, but not necessarily,  from from REST APIs)
 
