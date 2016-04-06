@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C7E41C81CAF0B1900FF1780 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7E41C61CAF0B1900FF1780 /* ReactiveCocoa.framework */; };
+		3C7E41C91CAF0B1900FF1780 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7E41C61CAF0B1900FF1780 /* ReactiveCocoa.framework */; };
+		3C7E41CA1CAF0B1900FF1780 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7E41C71CAF0B1900FF1780 /* Result.framework */; };
+		3C7E41CB1CAF0B1900FF1780 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7E41C71CAF0B1900FF1780 /* Result.framework */; };
 		3CB220F41C9B361F005533C2 /* PaginatedListViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB220F31C9B361F005533C2 /* PaginatedListViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CB220FB1C9B361F005533C2 /* PaginatedListViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB220F01C9B361F005533C2 /* PaginatedListViewModel.framework */; };
 		3CB221001C9B361F005533C2 /* PaginatedListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB220FF1C9B361F005533C2 /* PaginatedListViewModelTests.swift */; };
 		3CB2210B1C9B3638005533C2 /* PaginatedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2210A1C9B3638005533C2 /* PaginatedListViewModel.swift */; };
-		3CB2210E1C9B38EE005533C2 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB2210D1C9B38EE005533C2 /* ReactiveCocoa.framework */; };
 		3CB221111C9B3AAC005533C2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB221101C9B3AAC005533C2 /* Utils.swift */; };
-		3CB221171C9B437F005533C2 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB2210D1C9B38EE005533C2 /* ReactiveCocoa.framework */; };
-		3CB2211B1C9B452B005533C2 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB2211A1C9B452B005533C2 /* Result.framework */; };
-		3CB2211C1C9B452B005533C2 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB2211A1C9B452B005533C2 /* Result.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C7E41C61CAF0B1900FF1780 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		3C7E41C71CAF0B1900FF1780 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		3CB220F01C9B361F005533C2 /* PaginatedListViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaginatedListViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB220F31C9B361F005533C2 /* PaginatedListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaginatedListViewModel.h; sourceTree = "<group>"; };
 		3CB220F51C9B361F005533C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,9 +38,7 @@
 		3CB220FF1C9B361F005533C2 /* PaginatedListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedListViewModelTests.swift; sourceTree = "<group>"; };
 		3CB221011C9B361F005533C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CB2210A1C9B3638005533C2 /* PaginatedListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatedListViewModel.swift; sourceTree = "<group>"; };
-		3CB2210D1C9B38EE005533C2 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = "<group>"; };
 		3CB221101C9B3AAC005533C2 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		3CB2211A1C9B452B005533C2 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CB2210E1C9B38EE005533C2 /* ReactiveCocoa.framework in Frameworks */,
-				3CB2211B1C9B452B005533C2 /* Result.framework in Frameworks */,
+				3C7E41C81CAF0B1900FF1780 /* ReactiveCocoa.framework in Frameworks */,
+				3C7E41CA1CAF0B1900FF1780 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,9 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CB2211C1C9B452B005533C2 /* Result.framework in Frameworks */,
+				3C7E41CB1CAF0B1900FF1780 /* Result.framework in Frameworks */,
 				3CB220FB1C9B361F005533C2 /* PaginatedListViewModel.framework in Frameworks */,
-				3CB221171C9B437F005533C2 /* ReactiveCocoa.framework in Frameworks */,
+				3C7E41C91CAF0B1900FF1780 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,10 +67,10 @@
 		3CB220E61C9B361F005533C2 = {
 			isa = PBXGroup;
 			children = (
+				3C7E41C61CAF0B1900FF1780 /* ReactiveCocoa.framework */,
+				3C7E41C71CAF0B1900FF1780 /* Result.framework */,
 				3CB220F21C9B361F005533C2 /* PaginatedListViewModel */,
 				3CB220FE1C9B361F005533C2 /* PaginatedListViewModelTests */,
-				3CB2210D1C9B38EE005533C2 /* ReactiveCocoa.framework */,
-				3CB2211A1C9B452B005533C2 /* Result.framework */,
 				3CB220F11C9B361F005533C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,11 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CB221041C9B361F005533C2 /* Build configuration list for PBXNativeTarget "PaginatedListViewModel" */;
 			buildPhases = (
+				3CB221181C9B43C6005533C2 /* ShellScript */,
 				3CB220EB1C9B361F005533C2 /* Sources */,
 				3CB220EC1C9B361F005533C2 /* Frameworks */,
 				3CB220ED1C9B361F005533C2 /* Headers */,
 				3CB220EE1C9B361F005533C2 /* Resources */,
-				3CB221181C9B43C6005533C2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -222,7 +222,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "carthage copy-frameworks";
+			shellScript = "if ! [ -d \"Carthage/Build\" ]; then\n    carthage build --platform ios\nfi";
 		};
 		3CB221191C9B44A2005533C2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -230,8 +230,8 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/ReactiveCocoa.framework",
-				"$(SRCROOT)/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 			);
 			outputPaths = (
 			);
@@ -370,6 +370,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PaginatedListViewModel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -392,6 +393,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PaginatedListViewModel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -408,6 +410,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PaginatedListViewModelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -422,6 +425,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PaginatedListViewModelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -449,6 +453,7 @@
 				3CB221061C9B361F005533C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CB221071C9B361F005533C2 /* Build configuration list for PBXNativeTarget "PaginatedListViewModelTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +462,7 @@
 				3CB221091C9B361F005533C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
