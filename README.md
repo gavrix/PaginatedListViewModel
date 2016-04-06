@@ -75,10 +75,26 @@ Whenever current page's request fails, SignalProducer representing that page's r
 
 As one can see, dependency is only used to obtain first page's SignalProducer, as subsequent page's can be obtained from previous page's request. When `reset` method is called in `PaginatedListViewModel`, however, this process is started over and next time `loadNextPage` is called, `PaginatedListViewModel` will request first page's SignalProducer from provided dependency.
 
+## Installation
+
+### Direct checkout
+
+Checkout this repository, copy `PaginatedListViewModel` folder into your project's 3rd party dependencies folder. Then drag `PaginatedListViewModel.xcodeproj` into your master project. Don't forget to add `PaginatedListViewModel` in in your master project's Target dependencies build phase.
+
+### Carthage
+
+In your Cartfile add the following line:
+
+```
+git "https://github.com/gavrix/PaginatedListViewModel.git" "0.0.1"
+```
+
+There are several ways to include carthage-prepared dependencies into your master project depending on whether you want to include frameworks only source code as well. Please refer to carthage [documentation](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application). 
 
 ## Example project.
 
 Refer to example project in a [collection](https://github.com/gavrix/ViewModelsSamples) of samples for other ViewModel based µ-frameworks [here](https://github.com/gavrix/ViewModelsSamples/blob/master/PaginatedListViewModelExample/README.md).
+
 
 ## Credits
 
