@@ -21,7 +21,7 @@ public class RecusrsivePageSignalPayload<T> {
 }
 
 public protocol PaginatedListViewModelDependency {
-    typealias ListItemType
+    associatedtype ListItemType
     func intialPageSignal() -> SignalProducer<RecusrsivePageSignalPayload<ListItemType>, NSError>
 }
 
@@ -79,7 +79,7 @@ public class PaginatedListViewModel<T> {
             
             
             let pagesSignal = SignalProducer<[T], NoError>(value: []).concat(loadedPagesSignal)
-            return pagesSignal.scan([], {(var all, current) in
+            return pagesSignal.scan([], {( all, current) in
                 all.appendContentsOf(current)
                 return all
             })
