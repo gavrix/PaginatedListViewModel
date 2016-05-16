@@ -122,7 +122,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CB221041C9B361F005533C2 /* Build configuration list for PBXNativeTarget "PaginatedListViewModel" */;
 			buildPhases = (
-				3CB221181C9B43C6005533C2 /* ShellScript */,
 				3CB220EB1C9B361F005533C2 /* Sources */,
 				3CB220EC1C9B361F005533C2 /* Frameworks */,
 				3CB220ED1C9B361F005533C2 /* Headers */,
@@ -210,20 +209,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3CB221181C9B43C6005533C2 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/ReactiveCocoa.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if ! [ -d \"Carthage/Build\" ]; then\n    carthage build --platform ios\nfi";
-		};
 		3CB221191C9B44A2005533C2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
