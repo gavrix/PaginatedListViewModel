@@ -92,6 +92,14 @@ git "https://github.com/gavrix/PaginatedListViewModel.git" "0.0.1"
 
 There are several ways to include carthage-prepared dependencies into your master project depending on whether you want to include frameworks only source code as well. Please refer to carthage [documentation](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application). 
 
+### Cocoapods
+
+`PaginatedListViewModel` also available via Cocoapods. Add the following line to your Podfile:
+
+```
+pod 'PaginatedListViewModel', '0.0.3'
+```
+
 ## Example project.
 
 Refer to example project in a [collection](https://github.com/gavrix/ViewModelsSamples) of samples for other ViewModel based µ-frameworks [here](https://github.com/gavrix/ViewModelsSamples/blob/master/PaginatedListViewModelExample/README.md).
