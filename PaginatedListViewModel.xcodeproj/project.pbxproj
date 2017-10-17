@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C7E41C81CAF0B1900FF1780 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7E41C61CAF0B1900FF1780 /* ReactiveCocoa.framework */; };
-		3C7E41C91CAF0B1900FF1780 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7E41C61CAF0B1900FF1780 /* ReactiveCocoa.framework */; };
-		3C7E41CA1CAF0B1900FF1780 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7E41C71CAF0B1900FF1780 /* Result.framework */; };
-		3C7E41CB1CAF0B1900FF1780 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7E41C71CAF0B1900FF1780 /* Result.framework */; };
 		3CB220F41C9B361F005533C2 /* PaginatedListViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB220F31C9B361F005533C2 /* PaginatedListViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CB220FB1C9B361F005533C2 /* PaginatedListViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB220F01C9B361F005533C2 /* PaginatedListViewModel.framework */; };
 		3CB221001C9B361F005533C2 /* PaginatedListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB220FF1C9B361F005533C2 /* PaginatedListViewModelTests.swift */; };
 		3CB2210B1C9B3638005533C2 /* PaginatedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2210A1C9B3638005533C2 /* PaginatedListViewModel.swift */; };
 		3CB221111C9B3AAC005533C2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB221101C9B3AAC005533C2 /* Utils.swift */; };
+		A5FB89801F962F9F00F00F09 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FB89811F962F9F00F00F09 /* ReactiveSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C7E41C61CAF0B1900FF1780 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
-		3C7E41C71CAF0B1900FF1780 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		3CB220F01C9B361F005533C2 /* PaginatedListViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaginatedListViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB220F31C9B361F005533C2 /* PaginatedListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaginatedListViewModel.h; sourceTree = "<group>"; };
 		3CB220F51C9B361F005533C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +34,7 @@
 		3CB221011C9B361F005533C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CB2210A1C9B3638005533C2 /* PaginatedListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatedListViewModel.swift; sourceTree = "<group>"; };
 		3CB221101C9B3AAC005533C2 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A5FB89811F962F9F00F00F09 /* ReactiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C7E41C81CAF0B1900FF1780 /* ReactiveCocoa.framework in Frameworks */,
-				3C7E41CA1CAF0B1900FF1780 /* Result.framework in Frameworks */,
+				A5FB89801F962F9F00F00F09 /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,9 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C7E41CB1CAF0B1900FF1780 /* Result.framework in Frameworks */,
 				3CB220FB1C9B361F005533C2 /* PaginatedListViewModel.framework in Frameworks */,
-				3C7E41C91CAF0B1900FF1780 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,11 +60,10 @@
 		3CB220E61C9B361F005533C2 = {
 			isa = PBXGroup;
 			children = (
-				3C7E41C61CAF0B1900FF1780 /* ReactiveCocoa.framework */,
-				3C7E41C71CAF0B1900FF1780 /* Result.framework */,
 				3CB220F21C9B361F005533C2 /* PaginatedListViewModel */,
 				3CB220FE1C9B361F005533C2 /* PaginatedListViewModelTests */,
 				3CB220F11C9B361F005533C2 /* Products */,
+				A5FB897F1F962F9F00F00F09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +94,14 @@
 				3CB221011C9B361F005533C2 /* Info.plist */,
 			);
 			path = PaginatedListViewModelTests;
+			sourceTree = "<group>";
+		};
+		A5FB897F1F962F9F00F00F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5FB89811F962F9F00F00F09 /* ReactiveSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +144,6 @@
 				3CB220F61C9B361F005533C2 /* Sources */,
 				3CB220F71C9B361F005533C2 /* Frameworks */,
 				3CB220F81C9B361F005533C2 /* Resources */,
-				3CB221191C9B44A2005533C2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -223,21 +222,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if ! [ -d \"Carthage/Build\" ]; then\n    carthage build --platform ios\nfi";
-		};
-		3CB221191C9B44A2005533C2 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -379,6 +363,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -401,6 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gavrix.PaginatedListViewModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -416,6 +402,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gavrix.PaginatedListViewModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -431,6 +418,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gavrix.PaginatedListViewModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
